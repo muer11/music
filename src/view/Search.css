@@ -1,0 +1,173 @@
+.hidden {
+	display: none;
+}
+
+.search-input {
+	width: 100%;
+	text-align: center;
+	background: #f4f4f4;
+}
+.search-input div{
+	height: 46px;
+	padding-top: 10px;
+	margin: 0px auto;
+	width: 96%;
+position: relative;
+}
+.search-input input {
+	padding: 8px 12px 8px 35px;
+	width: 80%;	
+	outline: none;
+	border:0 none;
+	height: 20px;
+	background: #fff url(../images/wenhao.png) no-repeat;
+	background-size: 20px 20px;
+	background-position: 10px 8px;
+
+}
+.search-history-cancel {
+	border: 0 none;
+	padding: 10px;
+	background-color: #fff;
+
+}
+.search-icon {
+	position: absolute;
+    top: 19px;
+    right: 24px;
+    width: 18px;
+    height: 18px;
+    background: #b1b1b1;
+    border-radius: 99px;
+    color: #fff;
+    -webkit-transform: rotate(45deg);
+}
+
+.search-hot {
+	margin: 10px 0 10px 5px;
+}
+.search-hot ul {
+	overflow: hidden;
+}
+.search-hot ul li {
+	list-style: none;
+	float: left;
+	border: 1px solid #ccc;
+	margin: 5px;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 8px;
+	border-radius: 15px;
+}
+
+
+.search-end ul {
+
+}
+
+.search-end-li {
+	width: 85%;
+	padding-left: 15%;
+	list-style: none;
+	position: relative;
+	height: 55px;
+}
+.search-end-li a {
+	text-decoration: none;
+}
+.search-end-li i {
+	position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 22px;
+    height: 20px;
+    background-position: 0 0; 
+    background: url(../images/search_sprite.png) no-repeat;
+    background-size: 22px 30px;
+}
+.search-end-li div {
+	
+}
+.search-end-li div h3 {
+	margin: 10px 0 10px;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.search-end-li div p {
+	font-size: 12px;
+	color: #808080;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.search-hot ul .search-history-li {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	border: 0 none;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+}
+.search-hot ul .search-history-all {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 0 none;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+	color: #47c88a;
+}
+
+.search-history-li div {
+	overflow: hidden;
+}
+.search-history-icon {
+	float: left;
+	background: url(../images/clock_ic.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	padding: 10px 15px 0 20px;
+	background-size: 20px 20px;
+	background-position: 20px 12px;
+}
+
+.search-history-name {
+	float: left;
+	font-weight: bold;
+	color: #000;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	width: 255px;
+	height: 44px;
+}
+
+.search-history-close {
+	float: right;
+	width: 40px;
+	height: 40px;
+	padding-left: 10px;
+}
+.search-history-close span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	font-size: 36px;
+	-webkit-transform: rotate(45deg);
+}
+
+
+
+
+

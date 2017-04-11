@@ -1,0 +1,61 @@
+.music_header {
+	overflow: hidden;
+	padding: 15px 40px 15px 15px;
+    background: rgba(0,0,0,.1);
+}
+.music-img {
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+.music-img img{
+	width: 80px;
+	height: 80px;
+}
+
+.music-info {
+	float: left;
+	padding: 20px;
+	overflow: hidden;
+	width: 185px;
+}
+
+.music-info h3 {
+	color: #fff;
+	padding-bottom: 5px;
+	display: -webkit-box;
+    -webkit-box-align: center;
+    white-space: nowrap;
+}
+
+.music-info p {
+	color: #fff;
+}
+
+.bg {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom center;
+}
+.mask_bg {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background: #000;
+    background-size: cover;
+    background-position: bottom center;
+    opacity: 0.6;
+}
+audio {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}

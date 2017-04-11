@@ -1,0 +1,69 @@
+
+.top-ul{
+	margin-top: 10px;
+}
+
+.top-li {
+	width: 96%;
+	margin: 0 auto 10px;
+	overflow: hidden;
+	list-style: none;
+}
+
+.top-li-left {
+	float: left;
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+
+.top-img {
+	width: 100px;
+	height: 100px;
+	
+}
+.top-li-right {
+	float: right;
+	width: 250px;
+}
+.top-li-left span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color:#fff;
+	opacity: 0.6;
+	height: 15px;
+	line-height: 10px;
+}
+.erji {
+	float: left;
+	margin-left: 5px;
+	width: 15px;
+	height: 15px;
+	background: url(../images/list_sprite.png) no-repeat;
+	background-position: 0px -49px;
+    background-size: 28px 60px;
+}
+.li-title {
+	font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+ol {
+	list-style: none;
+}
+.ol-li {
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: rgba(0,0,0,.5);
+    margin-bottom: 7px;
+}
+.ol-li span {
+	color: #000;
+    margin-left: 8px;
+    margin-right: 5px;
+}

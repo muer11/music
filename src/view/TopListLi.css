@@ -1,0 +1,74 @@
+.toplistli {
+	background-color: rgb(96, 96, 96);
+}
+.toplistli-img {
+	width: 100%;
+	height: 300px;
+}
+.toplistli-img img {
+	width: 100%;
+	height: 100%;
+}
+.toplistli-info {
+	width: 100%;
+	height: 75px;
+	border-bottom: 1px solid rgba(255,255,255,.15);
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.toplistli-info h3 {
+	margin: 5px 0 10px 15px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+
+}
+.toplistli-info p{
+	margin: 0 0 0 15px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.toplistli-ul {
+
+}
+
+.toplistli-li {
+	width: 100%;
+	height: 75px;
+	border-bottom: 1px solid rgba(255,255,255,.15);
+}
+.toplistli-li a {
+	display: block;
+	overflow: hidden;
+}
+.toplistli-li-id {
+	float: left;
+	width: 9%;
+	margin-right: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.toplistli-li-info {
+	float: left;
+	width: 85%;
+}
+.toplistli-li-info h3 {
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.toplistli-li-info p {
+	color: rgba(255,255,255,.6);
+	font-size: 14px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
